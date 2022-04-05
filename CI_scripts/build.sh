@@ -57,12 +57,6 @@ else
     lunch omni_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 fi
 
-# lunch the target
-if [ "$FOX_BRANCH" = "fox_11.0" ]; then
-    lunch twrp_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
-else
-    lunch omni_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
-fi
 
 # Build the Code
 if [ -z "$J_VAL" ]; then
