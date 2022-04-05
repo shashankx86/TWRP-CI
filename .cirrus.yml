@@ -1,0 +1,31 @@
+env:
+    # Config
+    CONFIG: config.sh
+
+    # Telegram
+    TG_CHAT_ID: 
+    TG_TOKEN: 
+
+    # Cirrus Specific Vars (Do *NOT* Change)
+    CIRRUS_SHELL: bash
+
+task:
+  name: "TWRP Recovery Build"
+  timeout_in: 120m
+  container:
+      image: ghcr.io/sushrut1101/docker:latest
+      cpu: 8
+      memory: 32G
+
+  Checks_script:
+      - curl -sL https://raw.githubusercontent.com/shashankx86/TWRP-CI/main/CI_scripts/checks.sh | bash
+
+  Sync_script:
+      - curl -sL https://raw.githubusercontent.com/shashankx86/TWRP-CI/main/CI_scripts/sync.sh | bash
+
+  Build_script:
+      - curl -sL https://raw.githubusercontent.com/shashankx86/TWRP-CI/main/CI_scripts/build.sh | bash
+
+  Upload_script:
+      - export TIMEOUT=43200 # Link timeout (in minutes)
+      - curl https://raw.githubusercontent.com/shashankx86/TWRP-CI/main/CI_scripts/upload.sh | bash
