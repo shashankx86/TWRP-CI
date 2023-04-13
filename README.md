@@ -1,2 +1,2 @@
-J# TWRP-CI
+# TWRP-CI
 Build TWRP recovery via Cirrus CI
