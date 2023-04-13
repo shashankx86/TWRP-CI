@@ -12,7 +12,7 @@ source $CONFIG
 # }
 
 # Change to the Source Directry
-cd /root/work
+cd /tmp/ci
 
 # Set-up ccache
 if [ -z "$CCACHE_SIZE" ]; then
