@@ -15,7 +15,8 @@ cd ~
 # }
 
 # Clone the Sync Repo
-cd $SYNC_PATH
+mkdir /tmp/ci
+cd /tmp/ci
 pwd
 ls
 repo init $TWRP_MANIFEST -b $TWRP_BRANCH --depth=1 
