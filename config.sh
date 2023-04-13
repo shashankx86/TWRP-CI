@@ -2,10 +2,10 @@
 
 # Device
 export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
-export TWRP_BRANCH="twrp-11"
-export DT_LINK="https://github.com/shashankx86/android_device_xiaomi_spes-TWRP.git -b twrp-11"
+export TWRP_BRANCH="twrp-12.1"
+export DT_LINK="https://github.com/0xNoob-bash/c -b 12"
 
-export DEVICE="spes"
+export DEVICE="fleur"
 export OEM="xiaomi"
 export TARGET="bootimage"
 
