@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Device
-export TWRP_MANIFEST="https://github.com/PitchBlackRecoveryProject/manifest_pb"
-export TWRP_BRANCH="android-12.1"
-export DT_LINK="https://github.com/0xNoob-bash/c -b 12"
+export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
+export TWRP_BRANCH="twrp-12.1"
+export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b 12"
 
-export DEVICE="fleur"
-export OEM="xiaomi"
-export TARGET="bootimage"
+export DEVICE="RMX1801"
+export OEM="realme"
+export TARGET="recovery"
 
 export OUTPUT="*.img"
 
