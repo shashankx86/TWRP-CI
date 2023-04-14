@@ -3,7 +3,7 @@
 # Device
 export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b 12"
+export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b twrp-12.1"
 
 export DEVICE="RMX1801"
 export OEM="realme"
