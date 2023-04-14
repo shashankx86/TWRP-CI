@@ -7,7 +7,7 @@ export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b twrp-12
 
 export DEVICE="RMX1801"
 export OEM="realme"
-export TARGET="recovery"
+export TARGET="recoveryimage"
 
 export OUTPUT="*.img"
 
