@@ -67,5 +67,5 @@ else
     mka -j${J_VAL} $TARGET || { echo "ERROR: Failed to Build TWRP!" && exit 1; }
 fi
 
-# Exit
+# Exitp
 exit 0
