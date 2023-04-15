@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Device
-export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
-export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b twrp-12.1"
+export TWRP_MANIFEST="https://github.com/PitchBlackRecoveryProject/manifest_pb"
+export TWRP_BRANCH="android-12.1"
+export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b android-12.1"
 
 export DEVICE="RMX1801"
 export OEM="realme"
-export TARGET="recoveryimage"
+export TARGET="pbrp"
 
-export OUTPUT="*.img"
+export OUTPUT="P*.zip"
 
 # Kernel Sorce
 # Uncomment the next line if you want to clone a kernel source.
