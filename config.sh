@@ -20,7 +20,7 @@ export OUTPUT="P*.zip"
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
 export USE_CCACHE=1
 export CCACHE_SIZE="50G"
-export CCACHE_DIR="$HOME/work/.ccache"
+export CCACHE_DIR="/tmp/ccache"
 export J_VAL=16
 
 if [ ! -z "$PLATFORM" ]; then
