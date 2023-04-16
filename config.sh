@@ -3,7 +3,7 @@
 # Device
 export TWRP_MANIFEST="https://github.com/PitchBlackRecoveryProject/manifest_pb"
 export TWRP_BRANCH="android-12.1"
-export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b android-12.1"
+export DT_LINK="https://github.com/ShazuxD/device_realme_RMX1801-twrp -b android-12.1-test"
 
 export DEVICE="RMX1801"
 export OEM="realme"
