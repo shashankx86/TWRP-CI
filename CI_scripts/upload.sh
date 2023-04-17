@@ -1,6 +1,6 @@
-cd /tmp/ci/out/target/product/RMX1801
+cd /tmp/ci/out/target/product/fleur
 ls
-curl bashupload.com -T recovery.img
+curl bashupload.com -T boot.img
 ls
 sudo apt install pigz
 cd /tmp
