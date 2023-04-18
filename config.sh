@@ -3,11 +3,10 @@
 # Device
 export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="to
-https://github.com/ShazuxD/recovery-pbrb -b wip"
+export DT_LINK="https://github.com/ShazuxD/recovery-pbrb -b wip"
 
-export DEVICE="RMX1801"
-export OEM="realme"
+export DEVICE="fleur"
+export OEM="xiaomi"
 export TARGET="bootimage"
 
 export OUTPUT="P*.zip"
